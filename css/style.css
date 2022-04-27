@@ -1,0 +1,218 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Quicksand:wght@600&display=swap');
+/*.side-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    background-color: black;
+    height: 70px;   
+}
+
+/* Responsividade */
+/*
+@media screen and (max-width: 600px) {
+    .side-column{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .side-column{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+
+}
+*/
+/* End Responsividade */
+.title-slaca{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #ed7839 0%, #FFB455 100%);
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+.title-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-slaca{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+.central-column{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    background-color: black;
+    color: darkgray;
+    flex: 3;
+}*/
+/*Container contendo todo o conteúdo do site*/
+.container {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 6;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*coluna lateral esquerda (classe side-column)*/
+aside {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(0deg, #ed7839 0%, #FFB455 100%);
+    height: 70px;
+    border-right: 2px solid #ECECEC;
+}
+/*Título acima da imagem 13 SLACA*/
+.title-slaca {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3px;
+}
+.menu-slaca {
+    padding: 0px;
+    margin: 0px;
+}
+.img-slaca {
+    size-adjust: 100%;
+    border: 0;
+}
+/*Menu organizando em lista não ordenada*/
+.list-menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+/*Botões do menu*/
+.buttonClass {
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0%;
+    width: 100%;
+    height:35px;
+    background-color: transparent;
+    color:  #746565;
+    size: 100%;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    border-color: transparent;
+    border-bottom: 2px solid #ECECEC;
+}
+/*Main coluna central (classe central column)*/
+main {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    margin-left: 0px;
+    background-color: rgb(41, 37, 37);
+    height: 70px;
+}
+/*cabeçalho da main (classe header)*/
+.header {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+/* Primeira linha do cabeçalho */
+.text-header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    font-size: 14px;
+    margin:2px;
+    margin-bottom: 2px;
+    margin-left:30px;
+}
+/*Parte do texto do cabeçalho ampliada*/
+.enlarged-text{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 22px;
+    margin:0;
+    margin-left: 30px;
+}
+
+.issn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    font-size: 13px;
+    margin:0;
+    margin-left: 30px;
+}
+
+.header-content{
+    color: rgb(126, 118, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    background-color: #f7e3daf8;
+    border-radius: 3px;
+    padding: 0;
+    height:70px ;
+
+}
+/*Título da main (classe title-main)*/
+.title-main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ed7839;
+}
+/*Vídeo da main (classe video)*/
+.video {
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+/*Todo o texto do resumo da main (classe all-resume)*/
+.all-resume {
+    border: solid 1px rgb(223, 218, 218);
+    border-radius: 3px;
+    color: rgb(207, 201, 201) font-size: 12px;
+}
+/*Container do título resumo*/
+.container-resume {
+    background-color: #f7e3daf8;
+    border-radius: 3px;
+    padding:1px 1px 1px 1px;
+}
+/*Configurações do título resumo*/
+.title-resume {
+    font-family: helvetica, sans-serif, arial;
+    color:    #646263;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+/*Configurações do corpo do texto do resumo*/
+.text-resume {
+    font-family: sans-serif;
+    margin-left: 14px;
+    font-family:helvetica, sans-serif, arial;
+    color:    #646263;
+}
