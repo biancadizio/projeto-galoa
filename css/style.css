@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* End Font Settings */
 
@@ -14,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* End Body Settings */
 
 
@@ -23,6 +25,7 @@ body {
     grid-template-columns: 5;
     grid-template-rows: 6;
 }
+
 /* End Principal Container Settings */
 
 
@@ -66,11 +69,7 @@ header {
     grid-row: 1 / 2;
     font-family: 'Roboto', sans-serif;
     color: #725C5C;
-}
 
-.dropdown {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
 }
 
 .text-header,
@@ -92,6 +91,23 @@ header {
     line-height: 26px;
     font-weight: 400;
 }
+
+/* Button PT-BR */
+.dropdown {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    margin-left: -350px;
+    background-color: transparent;
+}
+#dropdownMenu2{
+    background-color: transparent;
+    color: #333333;
+    margin-top: 12px;
+}
+
+/* End Button PT-BR */
+
+
 /* End Header Settings */
 
 
@@ -100,7 +116,6 @@ aside {
     display: flex;
     flex-direction: column;
     background-color: #FFF;
-    box-shadow: 3px 0 5px 0 #E7E7E7;
     min-height: 100vh;
     min-width: 220px;
     position: sticky;
@@ -133,14 +148,16 @@ aside {
     width: 14vw;
 }
 
-/*menu organizado em lista não ordenada*/
+/* Menu arranged in unordered list */
 .list-menu {
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
 
-/*Botões do menu*/
+/* End Menu arranged in unordered list */
+
+/* Menu buttons */
 .buttonClass {
     list-style: none;
     padding: 0px 20px;
@@ -158,120 +175,192 @@ aside {
 }
 
 .buttonClass:hover {
-    list-style: none;
-    padding: 0px 20px;
-    margin: 0%;
-    width: 100%;
-    height: 35px;
     background-color: #FBF1EB;
-    color: #746565;
-    size: 100%;
-    font-size: 15px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    border-color: transparent;
-    border-bottom: 2px solid #ECECEC;
 }
 
 /* End Left Column Settings */
 
 /* Right Column Settings */
-.right-column-container {
-    display: grid;
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    background-color: transparent;
+/* Buttons Right Column */
+.body-details {
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
-    height: 30vh;
 }
+
+.buttons-right-column {
+    margin-bottom: 15px;
+}
+
+/* End Buttons Right Column */
+.work-cote {
+    height: 25px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: right;
+    color: #ED7839;
+}
+
 /*Title Details*/
-#title-details{
+.right-column-box {
+    position: absolute;
+    width: 242px;
+    height: 439px;
+    left: 1050px;
+    top: 73px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #5C5C5C;
+}
+
+#title-details {
     font-family: 'Roboto', sans-serif;
     color: #4E4E4E;
     font-size: 20px;
+    background-color: #FDF1EB;
+ 
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    height: 45px;
+    align-items: center;
 }
+
 /*End Title Details*/
-/* Text Details */
-#text-details {
-    font-family: 'Quicksand', sans-serif;
-    color: #5C5C5C;
-    font-size: 12px;
-}
-/* End Text Details */
 /* End Right Column Settings */
 
 /* Main Settings */
 main {
     display: grid;
-    grid-column: 2 / 4;
+    grid-column: 2 / 5;
     grid-row: 2 / 5;
     background-color: transparent;
 }
 
 .main-container {
     display: grid;
-    grid-column: 3 / 4;
+    grid-column: 2 / 5;
     grid-row: 2 / 5;
     background-color: transparent;
 }
 
 .main-data {
-    grid-column: 3 / 4;
+    grid-column: 2 / 5;
     grid-row: 2 / 5;
     background-color: transparent;
 }
 
 .title-main {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-family: 'Roboto';
     color: #ED7839;
     letter-spacing: 0.05em;
     font-size: 20px;
+    margin-left: -70px;
 }
 
-.container-resume {
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: #FDF1EB;
-    border-color: #ECECEC;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.05);
-    border: 1px solid transparent;
+.main-content {
+    grid-column: 2 /3;
+    grid-row: 1 / 2;
+    color: #ED7839;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 783px;
 }
 
 .video {
     display: grid;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 2 /3;
+    width: 100px;
+    height: 100px;
     border-radius: 3px;
+    margin-bottom: 390px;
+    margin-left: -70px;
 
 }
 
-.main-content {
-    grid-column: 2 /3;
-    grid-row: 2 / 3;
-    margin-left: 10vw;
-    color: #ED7839;
+.video-content {
+    display: grid;
+    grid-column: 2 / 3;
+    width: 783px;
+    height: 439px;
+    border-radius: 3px;
+}
+
+
+
+/* Summary Section */
+.resume-container {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border-color: #ECECEC;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    width: 1000px;
+}
+
+.resume-box {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    margin-left: -70px;
+    width: 1088px;
+    margin-top: 13px;
+}
+
+.resume-title {
+    color: #4e4e4e;
+    background-color: #FDF1EB;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
+.resume {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-box-text {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* End Summary Section */
+
+
+
+
 
 /* Analysis */
 .container-analysis {
     display: grid;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    border: 1px solid #ECECEC;
-    box-sizing: border-box;
-    border-radius: 3px;
+
 }
 
 /* Box Analysis */
 .box-analysis {
+    grid-column: 1 / 3;
+    margin-top: 10px;
     background-color: transparent;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    margin-left: -70px;
 }
 
 /*Title Analysis*/
@@ -287,6 +376,11 @@ main {
     font-size: 20px;
 }
 
+.title-analysis {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* End Title Analysis */
 /* Text-Analysis */
 .text-analysis {
@@ -298,7 +392,7 @@ main {
 
 /*End Text-Analysis */
 /*Continuation of the text*/
-.continuation-text{
+.continuation-text {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     text-align: center;
@@ -306,24 +400,27 @@ main {
     width: 600px;
     display: inline-block;
 }
-.button-topic{
+
+.button-topic {
     background-color: transparent;
 }
+
 /* End Continuation od the text*/
 /* Box Text */
-.popup{
+.popup {
     display: none;
 }
-#botao-criar-topico{
+
+#botao-criar-topico {
     background-color: transparent;
 }
+
 /* End Box Text */
 /* End Box Analysis */
 /* End Analysis */
 /* End Main Settings */
 /* Footer Settings */
-footer,
-.footer-container {
+footer {
     display: grid;
     grid-column: 2 / 5;
     grid-row: 5 / 6;
@@ -334,6 +431,20 @@ footer,
     line-height: 1.4;
     background-color: transparent;
     height: 10vh;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-column: 2 / 5;
+    grid-row: 5 / 6;
+    box-sizing: border-box;
+    color: #5C5C5C;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: transparent;
+    height: 30vh;
     box-shadow: 3px 0 5px 0 #E7E7E7;
 }
 
@@ -342,13 +453,17 @@ footer,
     grid-column: 2 / 3;
     grid-row: 5 / 6;
     align-self: center;
+    width: 100%;
+    height: 30vh;
 }
 
 .galoa-logo-footer {
     width: 200px;
     height: auto;
     display: inline-block;
+    margin-top: 20px;
 }
+
 .button-galoa {
     background-color: #71478E;
     color: #FFF;
@@ -356,18 +471,21 @@ footer,
     width: 200px;
     display: inline-block;
 }
-.paragraph{
+
+.paragraph {
     grid-column: 3 / 5;
     grid-row: 4 / 6;
-    background-color: red;
+    background-color: transparent;
     box-sizing: border-box;
     display: inline-block;
-
+    margin-bottom: 100px;
+    margin-left: 10px;
 }
+
 /* End Footer Settings */
 /* List Images */
-.list-img{
-        letter-spacing: 50.26px;
-    }
+.list-img {
+    letter-spacing: 50.26px;
+}
 
 /*End List Images */
