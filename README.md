@@ -7,6 +7,6 @@ Projeto desenvolvido durante processo seletivo para vaga de Estágio em Desenvol
 
 <img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto4.png?raw=true" >
 
-<img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto5.png?raw=true" width="1000" height="600">
+<img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto5.png?raw=true" >
 
-<img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto6.png?raw=true" width="1000" height="600">
+<img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto6.png?raw=true" >
