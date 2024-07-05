@@ -1,4 +1,4 @@
-# Projeto processo seletivo galoá ciência
+# Projeto processo seletivo Galoá Ciência
 Projeto desenvolvido durante processo seletivo para vaga de Estágio em Desenvolvimento web
 
 <img src="https://github.com/biancadizio/projeto-galoa/blob/master/prints/projeto1.png?raw=true">
